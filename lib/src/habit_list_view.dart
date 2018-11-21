@@ -12,8 +12,8 @@ class HabitListView extends StatelessWidget {
         child: GridView.count(
           crossAxisCount: 2,
           children: <Widget>[
-                WakeUp(),
-                DrinkWater()
+                DrinkWater(),                
+                WakeUp()
               ],
           ),
        );

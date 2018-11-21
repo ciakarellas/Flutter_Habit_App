@@ -2,10 +2,7 @@ import 'package:flutter/material.dart';
 
 class DrinkWater extends StatefulWidget {
   @override
-    State<StatefulWidget> createState() {
-      // TODO: implement createState
-      return null;
-    }
+    DrinkWaterState createState() => DrinkWaterState();
 }
 
 class DrinkWaterState extends State<DrinkWater> {
@@ -17,7 +14,7 @@ class DrinkWaterState extends State<DrinkWater> {
                   child: Center(
                     
                     child: IconButton(
-                      icon: Icon(Icons.payment),
+                      icon: Icon(Icons.pin_drop),
                       iconSize: 70,
                       color: Colors.black54,
                       onPressed: () { },

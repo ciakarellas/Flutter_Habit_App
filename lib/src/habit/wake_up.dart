@@ -2,10 +2,7 @@ import 'package:flutter/material.dart';
 
 class WakeUp extends StatefulWidget {
   @override
-    State<StatefulWidget> createState() {
-      // TODO: implement createState
-      return null;
-    }
+    WakeUpState createState() => WakeUpState();
 }
 
 class WakeUpState extends State<WakeUp> {
