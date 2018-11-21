@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './src/habit.dart';
+import './src/habit_list_view.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text('Master of habbit'),
         ),
-        body: Habit(),
+        body: HabitListView(),
       ),
     );
   }
